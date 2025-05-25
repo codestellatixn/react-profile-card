@@ -1,4 +1,5 @@
 import "./App.css";
+import picture from "./assets/picture.jpg";
 
 const skills = [
   {
@@ -41,7 +42,7 @@ function App() {
 }
 
 function Avatar() {
-  return <img src="./src/assets/picture.jpg" alt="profile photo" className="avatar" />;
+  return <img src={picture} alt="profile photo" className="avatar" />;
 }
 
 function Intro() {
